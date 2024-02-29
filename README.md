@@ -77,6 +77,12 @@ pip install -r requirements.txt
 - **Average ROUGE F1 Score:** 0.2456
 
 
+## Conclusion
+
+This text summarization project leverages powerful OpenLLMs, including Facebook-BART, T5, and DistilBERT, to generate concise and informative summaries from news articles. The models demonstrate varying strengths in terms of precision, recall, and word overlap accuracy. While each model contributes uniquely, a careful balance must be struck to optimize for different evaluation metrics. This project opens avenues for enhanced document understanding and can be further extended for applications in automated content curation, information retrieval, and beyond.
+
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
