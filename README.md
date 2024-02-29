@@ -38,6 +38,45 @@ This project uses Python and various libraries. Make sure to install them using:
 pip install -r requirements.txt
 ```
 
+## Results
+
+### Facebook-BART
+
+- **ROUGE Scores:**
+  - rouge1: Precision - 0.41, Recall - 0.25, F1 Score - 0.31
+  - rouge2: Precision - 0.21, Recall - 0.13, F1 Score - 0.16
+  - rougeL: Precision - 0.35, Recall - 0.21, F1 Score - 0.26
+  - rougeLsum: Precision - 0.38, Recall - 0.23, F1 Score - 0.29
+
+- **Word Overlap Accuracy:** 33.33%
+
+- **Average ROUGE F1 Score:** 0.2536
+
+### T5 (Text-to-Text Transfer Transformer)
+
+- **ROUGE Scores:**
+  - rouge1: Precision - 0.44, Recall - 0.24, F1 Score - 0.31
+  - rouge2: Precision - 0.21, Recall - 0.11, F1 Score - 0.15
+  - rougeL: Precision - 0.35, Recall - 0.19, F1 Score - 0.25
+  - rougeLsum: Precision - 0.38, Recall - 0.21, F1 Score - 0.27
+
+- **Word Overlap Accuracy:** 36.36%
+
+- **Average ROUGE F1 Score:** 0.2456
+
+### DistilBERT
+
+- **ROUGE Scores:**
+  - rouge1: Precision - 0.44, Recall - 0.24, F1 Score - 0.31
+  - rouge2: Precision - 0.21, Recall - 0.11, F1 Score - 0.15
+  - rougeL: Precision - 0.35, Recall - 0.19, F1 Score - 0.25
+  - rougeLsum: Precision - 0.38, Recall - 0.21, F1 Score - 0.27
+
+- **Word Overlap Accuracy:** 36.36%
+
+- **Average ROUGE F1 Score:** 0.2456
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
