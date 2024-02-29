@@ -25,7 +25,7 @@ This project focuses on utilizing OpenLLMs (Open Language Models) - Facebook-BAR
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/text-summarization.git
+   git clone https://github.com/monalisaburma/text-summarization.git
    ```
 
 ### Open and run the Jupyter Notebook text_summarization.ipynb for a step-by-step walkthrough.
